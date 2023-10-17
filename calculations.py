@@ -16,3 +16,6 @@ def calculate_product(a, b):
 def calculate_dividend(a, b):
     return a / b
 
+def calculate_modulus(a, b):
+    return a % b
+

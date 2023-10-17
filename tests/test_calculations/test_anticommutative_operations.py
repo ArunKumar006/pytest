@@ -1,6 +1,6 @@
 import pytest
 
-from calculations import calculate_difference, calculate_dividend
+from calculations import calculate_difference, calculate_dividend,calculate_modulus
 
 
 # paremtrization example:
@@ -25,3 +25,9 @@ def test_calculate_dividend():
     calculation = calculate_dividend(12, 3)
 
     assert calculation == 4
+
+def test_calculate_modulus():
+
+    calculation = calculate_modulus(11, 3)
+
+    assert calculation == 2
